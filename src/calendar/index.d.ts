@@ -1,8 +1,8 @@
 import React from 'react';
-import { ViewStyle, StyleProp } from 'react-native';
-import { DateData, Theme, MarkedDates, ContextProp } from '../types';
-import { CalendarHeaderProps } from './header';
+import { StyleProp, ViewStyle } from 'react-native';
+import { ContextProp, DateData, MarkedDates, Theme } from '../types';
 import { DayProps } from './day/index';
+import { CalendarHeaderProps } from './header';
 export interface CalendarProps extends CalendarHeaderProps, DayProps {
     /** Specify theme properties to override specific styles for calendar parts */
     theme?: Theme;
